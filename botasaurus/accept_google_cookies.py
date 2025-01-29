@@ -4,7 +4,7 @@ def verify_cookies(driver):
 
         def check_page():
             # can be socks too..
-            return  "NID" in driver.get_cookies_dict()
+            return  "__Secure-ENID" in driver.get_cookies_dict()
 
         time = 0
         WAIT = 8
