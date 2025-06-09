@@ -1,4 +1,5 @@
 from time import sleep
+from .wait import Wait
 
 def verify_cookies(driver):
     def check_page():
